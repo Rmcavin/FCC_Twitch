@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(75, 54, 124);
+}
+
+.header {
+  color:  white;
+  font-family:monospace;
+  background-color: rgb(69, 75, 84);
+  width: auto;
+  padding: 15px 20px 15px 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.title {
+    max-width: 400px;
+}
+
+.title h1 {
+  text-align: left;
+}
+
+.title h4 {
+  text-align: center;
+}
+
+i {
+  margin: 5px;
+  margin-right: 20px;
+}
+
+
+.container {
+  font-family:monospace;
+  background-color: rgb(69, 75, 84);
+  width: 60%;
+  padding: 15px 20px 15px 20px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.accountRow {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.fccRow {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.account {
+  flex: 1 1 auto;
+}
+
+.fccAccount {
+  flex: 1 1 auto;
+}
