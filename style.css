@@ -72,6 +72,7 @@ button {
   border-radius: 10px;
   text-align: center;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
   height: 140px;
@@ -81,7 +82,7 @@ button {
 a {
   text-decoration: none;
   margin: 20px;
-
+  flex: 1 1 auto;
 }
 
 a h2 {
@@ -92,6 +93,7 @@ a h2 {
 
 h2 {
   color: black;
+  flex: 1 1 auto;
 }
 
 .noStream {
@@ -108,6 +110,7 @@ h2 {
 .userName {
   width: 150px;
   margin: 20px;
+  flex: 1 1 auto;
 }
 
 .userLogo {
@@ -118,4 +121,13 @@ h2 {
 
 .GrayedOut {
   filter: grayscale();
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  .userObject {
+    width: 70%
+  }
 }
