@@ -81,10 +81,17 @@ a {
   color: rgb(75, 54, 124);
 }
 
+h4 {
+  color: black;
+}
+
 .noStream {
   color: red;
 }
 
+.noUser {
+  color: black;
+}
 .yesStream {
   color: green;
 }
