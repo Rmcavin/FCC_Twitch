@@ -1,4 +1,4 @@
-var users = ["brunofin","roxybear_gaming", "ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas","comster404"];
+var users = ["roxybear_gaming", "ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb","brunofin", "noobs2ninjas","comster404"];
 var urlS = "https://wind-bow.gomix.me/twitch-api/streams/";
 var urlC = "https://wind-bow.gomix.me/twitch-api/channels/";
 var html = "";
