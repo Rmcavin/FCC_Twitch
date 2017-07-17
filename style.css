@@ -59,12 +59,15 @@ button {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .userObject {
   flex: 1 1 auto;
   color: white;
   background-color: lightgray;
+  width: 70%;
+  margin: auto;
   margin: 5px;
   border-radius: 10px;
   text-align: center;
@@ -111,4 +114,8 @@ h2 {
   width: 100px;
   height: 100px;
   margin: 20px;
+}
+
+.GrayedOut {
+  filter: grayscale();
 }
