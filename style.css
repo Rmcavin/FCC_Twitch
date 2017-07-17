@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(75, 54, 124);
+  background-color: lightgray;
 }
 
 .header {
   color:  white;
   font-family:monospace;
-  background-color: rgb(69, 75, 84);
+  background-color: rgb(75, 54, 124);
   width: auto;
   padding: 15px 20px 15px 20px;
   margin: auto;
@@ -31,7 +31,7 @@ i {
 
 .container {
   font-family:monospace;
-  background-color: rgb(69, 75, 84);
+  background-color: rgb(75, 54, 124);
   width: 60%;
   padding: 15px 20px 15px 20px;
   margin: auto;
@@ -44,13 +44,14 @@ i {
 }
 
 button {
-  background-color: gray;
+  background-color: lightgray;
   border: 2px solid rgb(75, 54, 124);
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgb(27,30,33);
   padding: 10px;
   margin: 20px;
   width: 80px;
+  font-weight: bolder;
 }
 
 .accountRow {
@@ -76,12 +77,17 @@ button {
 
 a {
   text-decoration: none;
-  font-weight: bolder;
   margin: 20px;
-  color: rgb(75, 54, 124);
+
 }
 
-h4 {
+a h2 {
+  font-weight: bolder;
+  color: rgb(75, 54, 124);
+  font-size: 24;
+}
+
+h2 {
   color: black;
 }
 

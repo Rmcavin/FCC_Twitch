@@ -13,14 +13,14 @@ for (let i=0;i<users.length;i++) {
         console.log(data2);
             if (data.stream === null) {
               if (data2.error === "Not Found") {
-                html += `<div class = "userObject notFound"> <div class = "userName"><h2> ${users[i]} </h2> </div> <h4><i class="fa fa-circle noUser" aria-hidden="true"></i>Account Not Found</h4><img class = "userLogo" src = './twitch.png'></div>`
+                html += `<div class = "userObject notFound"> <div class = "userName"><h2> ${users[i]} </h2> </div> <h2><i class="fa fa-circle noUser" aria-hidden="true"></i>Account Not Found</h2><img class = "userLogo" src = './twitch.png'></div>`
               }
               else {
-                html += `<div class = "userObject offline"> <div class = "userName"><h2> ${users[i]} </h2> </div> <a href = 'http://twitch.tv/${users[i]}' target='_blank'><h4><i class="fa fa-circle noStream" aria-hidden="true"></i> Not currently streaming.</h4></a><img class = userLogo src = './twitch.png'></div>`
+                html += `<div class = "userObject offline"> <div class = "userName"><h2> ${users[i]} </h2> </div> <a href = 'http://twitch.tv/${users[i]}' target='_blank'><h2><i class="fa fa-circle noStream" aria-hidden="true"></i> Not currently streaming.</h2></a><img class = userLogo src = './twitch.png'></div>`
               }
             }
             else {
-              html += `<div class = "userObject online"> <div class = "userName"><h2> ${users[i]} </h2> </div> <a href = 'http://twitch.tv/${users[i]}' target='_blank'><h4><i class="fa fa-circle yesStream" aria-hidden="true"></i>Streaming ${data.stream.game}</h4></a><img class = "userLogo" src = ${data.stream.channel.logo} alt = "channel logo"></div>`
+              html += `<div class = "userObject online"> <div class = "userName"><h2> ${users[i]} </h2> </div> <a href = 'http://twitch.tv/${users[i]}' target='_blank'><h2><i class="fa fa-circle yesStream" aria-hidden="true"></i>Streaming ${data.stream.game}</h2></a><img class = "userLogo" src = ${data.stream.channel.logo} alt = "channel logo"></div>`
 
             }
               $(".accountRow").html(html);
