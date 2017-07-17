@@ -29,7 +29,6 @@ i {
   margin-right: 20px;
 }
 
-
 .container {
   font-family:monospace;
   background-color: rgb(69, 75, 84);
@@ -40,26 +39,63 @@ i {
   border-radius: 10px;
 }
 
+.buttonRow {
+  text-align: center;
+}
+
+button {
+  background-color: gray;
+  border: 2px solid rgb(75, 54, 124);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(27,30,33);
+  padding: 10px;
+  margin: 20px;
+  width: 80px;
+}
+
 .accountRow {
-  background-color: #FFF;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
-.fccRow {
-  background-color: #FFF;
+.userObject {
+  flex: 1 1 auto;
+  color: white;
+  background-color: gray;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
+  height: 140px;
+  box-shadow: 2px 2px 5px rgb(27,30,33);
 }
 
-.account {
-  flex: 1 1 auto;
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 20px;
+  color: rgb(75, 54, 124);
 }
 
-.fccAccount {
-  flex: 1 1 auto;
+.noStream {
+  color: red;
+}
+
+.yesStream {
+  color: green;
+}
+
+.userName {
+  width: 150px;
+  margin: 20px;
+}
+
+.userLogo {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
 }
